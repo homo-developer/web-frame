@@ -1,12 +1,10 @@
-/* corebuttons.css | Made by Anik (a_telegram_user) */
-
 :root {
   --btn-radius: 0.5rem;
   --btn-font: 'Segoe UI', sans-serif;
   --btn-transition: 0.25s ease;
 }
 
-/* Base Button */
+
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
@@ -20,7 +18,7 @@
   transition: all var(--btn-transition);
 }
 
-/* Primary Button */
+
 .btn-primary {
   background-color: #4f46e5;
   color: #ffffff;
@@ -29,7 +27,7 @@
   background-color: #3730a3;
 }
 
-/* Secondary Button */
+
 .btn-secondary {
   background-color: #6b7280;
   color: #ffffff;
@@ -38,7 +36,7 @@
   background-color: #4b5563;
 }
 
-/* Outline Button */
+
 .btn-outline {
   background-color: transparent;
   color: #4f46e5;
@@ -49,7 +47,6 @@
   color: #ffffff;
 }
 
-/* Danger Button */
 .btn-danger {
   background-color: #ef4444;
   color: #ffffff;
@@ -58,7 +55,6 @@
   background-color: #b91c1c;
 }
 
-/* Disabled State */
 .btn:disabled {
   opacity: 0.6;
   cursor: not-allowed;
